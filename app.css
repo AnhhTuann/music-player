@@ -34,14 +34,15 @@ img {
 body {
   font-family: "Poppins", sans-serif;
   padding: 20px;
+  background-image: linear-gradient(to left, #ee9ca7, #ffdde1);
 }
 
 .music {
+  border-radius: 51px;
+  background: #ffffff;
+  box-shadow: 32px 32px 64px #b46d77, -32px -32px 64px #fcdfe2;
   max-width: 500px;
   margin: 0 auto;
-  border-radius: 12px;
-  background-color: white;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   padding: 15px 15px 30px;
 }
 
@@ -56,6 +57,8 @@ body {
   height: 100%;
   border-radius: 8px;
   object-fit: cover;
+  background: #ffffff;
+  box-shadow: 32px 32px 64px #d9d9d9, -32px -32px 64px #ffffff;
 }
 
 .music-name {
@@ -89,7 +92,7 @@ body {
   content: "";
   position: absolute;
   inset: 0;
-  background-image: linear-gradient(to right bottom, #ff6bcb, #ffb86c);
+  background-image: linear-gradient(to right bottom, #ee9ca7, #ffdde1);
   transform: scale(1.5);
   border-radius: 100rem;
 }
@@ -129,7 +132,7 @@ body {
 
 .range::-webkit-slider-thumb {
   -webkit-appearance: none;
-  background-color: #20e3b2;
+  background-color: #ee9ca7;
   width: 15px;
   height: 15px;
   border-radius: 100rem;
