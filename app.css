@@ -35,15 +35,20 @@ body {
   font-family: "Poppins", sans-serif;
   padding: 20px;
   background-image: linear-gradient(to left, #ee9ca7, #ffdde1);
+  position: relative;
 }
 
 .music {
+  position: absolute;
   border-radius: 51px;
   background: #ffffff;
   box-shadow: 32px 32px 64px #b46d77, -32px -32px 64px #fcdfe2;
-  max-width: 500px;
+  width: 35rem;
   margin: 0 auto;
-  padding: 15px 15px 30px;
+  padding: 20px 15px 30px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .music-thumb {
